@@ -27,10 +27,13 @@ public class PacketPlayerWorldSceneInfoListNotify extends BasePacket {
                         PlayerWorldSceneInfo.newBuilder()
                                 .setSceneId(3)
                                 .setIsLocked(false)
+                                .addSceneTagIdList(101)
                                 .addSceneTagIdList(102)
                                 .addSceneTagIdList(113)
                                 .addSceneTagIdList(117)
-                                .addSceneTagIdList(1093)
+                                .addSceneTagIdList(152)//蒙德温泉节
+                                .addSceneTagIdList(153)//蒙德温泉节
+                                .addSceneTagIdList(1094)
                                 //.addSceneTagIdList(1094)
                                 //.addSceneTagIdList(1095)
                                 //.addSceneTagIdList(1096)
