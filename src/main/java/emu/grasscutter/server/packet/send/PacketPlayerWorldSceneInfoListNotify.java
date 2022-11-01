@@ -25,13 +25,12 @@ public class PacketPlayerWorldSceneInfoListNotify extends BasePacket {
                                 .setSceneId(3)
                                 .setIsLocked(false)
                                 .addSceneTagIdList(102) // Jade chamber
-                                .addSceneTagIdList(101)                                .addSceneTagIdList(113)
+                                .addSceneTagIdList(113)
                                 .addSceneTagIdList(117)
-                                .addSceneTagIdList(152)//蒙德温泉节
-                                .addSceneTagIdList(153)//蒙德温泉节
+
                                 // Vanarana (Sumeru tree)
-                                //.addSceneTagIdList(1093) // Vana_real
-                                 .addSceneTagIdList(1094) // Vana_dream
+                                .addSceneTagIdList(1093) // Vana_real
+                                // .addSceneTagIdList(1094) // Vana_dream
                                 // .addSceneTagIdList(1095) // Vana_first
                                 // .addSceneTagIdList(1096) // Vana_festival
 
