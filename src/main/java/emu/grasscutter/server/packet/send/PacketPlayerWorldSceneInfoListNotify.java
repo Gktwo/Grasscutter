@@ -25,7 +25,8 @@ public class PacketPlayerWorldSceneInfoListNotify extends BasePacket {
                                 .setSceneId(3)
                                 .setIsLocked(false)
                                 .addSceneTagIdList(102) // Jade chamber
-                                .addSceneTagIdList(113)
+                                .addSceneTagIdList(101)
+								.addSceneTagIdList(113)
                                 .addSceneTagIdList(117)
 
                                 // Vanarana (Sumeru tree)
