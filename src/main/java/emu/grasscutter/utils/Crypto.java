@@ -10,6 +10,7 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.regex.Pattern;
 
 import emu.grasscutter.Grasscutter;
 
